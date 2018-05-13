@@ -26,7 +26,8 @@
 	        };
 	}());
 
-	window.Typewriter = function Typewriter(element, options) {
+
+	window.Typewritertwo = function Typewritertwo(element, options) {
 		this._settings = {
 			cursorAnimationPaused: false,
 			opacityIncreasing: false,
@@ -69,7 +70,7 @@
 			cursor: '|',
 			animateCursor: true,
 			blinkSpeed: 50,
-			typingSpeed: 'natural',
+			typingSpeed: 'fast',
 			deleteSpeed: 'natural',
 			charSpanClassName: 'typewriter-char',
 			wrapperClassName: 'typewriter-wrapper',
@@ -92,9 +93,7 @@
 
 	};
 
-
-
-	var TypewriterPrototype = window.Typewriter.prototype;
+	var TypewriterPrototype = window.Typewritertwo.prototype;
 
 	TypewriterPrototype.stop = function() {
 		this._addToEventQue(this._stopEventLoop)
@@ -264,7 +263,7 @@
 		}
 
 		if(delete_speed == 'natural') {
-			delete_speed = self._randomInteger(20, 70);
+			delete_speed = self._randomInteger(1, 5);
 		}
 
 		if(char_amount_to_delete == 'all') {
@@ -429,7 +428,7 @@
 		}
 
 		if(typing_speed == 'fast') {
-			typing_speed = this._randomInteger(0.01, 0.1);
+			typing_speed = this._randomInteger(0, 1);
 		}
 
 		setTimeout(function() {

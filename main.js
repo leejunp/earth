@@ -11,6 +11,7 @@
 //     .deleteChars(7)
 //     .typeString('red')
 //     .start();
+
 setTimeout(function(){
   $('#myButton').fadeIn(600);
   $('#name').fadeIn(600);
@@ -21,8 +22,12 @@ var app = document.getElementById('app');
 var typewriter = new Typewriter(app, {
 });
 
+var typewritertwo = new Typewritertwo(apptwo, {
+});
+
 typewriter.typeString('Hello, what is your name?')
           .start();
+
 
 function answer(){
 
@@ -126,20 +131,30 @@ function answerten(){
   $('.optionsnine').fadeOut(600);
   $('.optionsten').fadeOut(600);
 
+  $('#apptwo').show();
+  $('#app').hide();
+
   typewriter.deleteAll()
             .start();
 
-  setTimeout(function(){
-    $('.final').fadeIn(300);
-  },3000);
+  typewritertwo.typeString('You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode. You are trapped in earth so you will explode.')
+            .start();
 
-  setTimeout(function(){
-    $('.final').fadeOut(300);
-  },8000);
 
+
+
+
+  // setTimeout(function(){
+  //   $('.final').fadeIn(300);
+  // },3000);
+  //
+  // setTimeout(function(){
+  //   $('.final').fadeOut(300);
+  // },8000);
+  //
   setTimeout(function(){
     $('.accepttwo').fadeIn(600);
-  },8500);
+  },9000);
 }
 
 // Accept
@@ -203,6 +218,8 @@ function wakeone(){
 }
 
 function accepttwo(){
+  $('#app').show();
+  $('#apptwo').hide();
   $('.accepttwo').fadeOut(600);
 
   typewriter.deleteAll()
